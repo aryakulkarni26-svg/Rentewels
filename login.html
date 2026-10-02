@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Rentewels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Rete<span>wels</span></div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="collection.html">Collection</a>
+        <a href="how.html">How It Works</a>
+        <a href="booking.html">Book Now</a>
+        <a href="login.html">Login</a>
+    </nav>
+</header>
+
+<section class="form-section">
+
+    <h1>Login</h1>
+
+    <form onsubmit="loginUser(); return false;">
+
+        <label>Mobile Number</label>
+
+        <input
+            type="text"
+            id="loginMobile"
+            placeholder="Enter mobile number"
+        >
+
+        <label>Password</label>
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Enter password"
+        >
+
+        <button type="submit">
+            Login
+        </button>
+
+    </form>
+
+    <div class="payment-box">
+
+        <h2>Retewels Payment</h2>
+
+        <p>
+            Rental price: ₹100 per day
+        </p>
+
+        <p>
+            Refundable security: ₹100
+        </p>
+
+        <p>
+            The security amount is returned after the jewellery
+            box is safely returned.
+        </p>
+
+    </div>
+
+</section>
+
+<div class="page-navigation">
+    <a href="booking.html">← Previous</a>
+    <a href="index.html" class="next">Finish ✓</a>
+</div>
+
+<footer>
+    <p>© 2026 Retewels | Jewellery Rental Service</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
